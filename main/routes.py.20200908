@@ -224,7 +224,7 @@ def attack6():
     print(resp)
     flash(resp, 'success')
 
-    return render_template('about_demo.html', title='test', form=form)
+    return render_template('about.html', title='test', form=form)
 
 
 @main.route("/attack/status", methods=['GET', 'POST'])
